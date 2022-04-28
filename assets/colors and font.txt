@@ -1,0 +1,5 @@
+nav_color = #ffffff
+
+nav_font = #cc2229
+
+font: Geometr212 BkCn BT
