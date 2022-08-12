@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    font-family:'Franklin Gothic';
+}
+
+body{
+    background-color: #ffffff;
+}
+header{
+    background-repeat: repeat-x;
+    background-color: #ffffff;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+nav{
+    width: 90%;
+    max-width: 980px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    
+}
+
+nav .logo-senna{
+    margin-top: 1%;
+}
+
+nav .logo-senna img{
+    width: 40px;
+    height: 32px;
+}
+
+.nav-ul{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+}
+
+.nav-ul li{
+    list-style-type: none;
+    margin-right: 10%;
+    font-size: 2rem;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.nav-ul a{
+    color: #cc2229;
+    text-decoration: none;
+}
+
+.nav-ul li:hover{
+    text-decoration: underline
+}
+
+
+@media (max-width: 500px){
+
+    nav img{
+        width: 30px;
+        height: 25px;
+    }
+
+    .nav-ul li{
+        font-size: 1.2rem;
+    }
+  
+}

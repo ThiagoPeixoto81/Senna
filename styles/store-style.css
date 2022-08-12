@@ -1,0 +1,198 @@
+html{
+    font-size: 62.5%;
+    font-family:'Franklin Gothic';
+}
+
+.banner-img{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+
+.banner-img img{
+    z-index: 1;
+    width: 100%;
+    position: relative;
+}
+
+.banner-img .banner-description{
+    z-index: 2;
+    margin: auto;
+    width: 70%;
+    height: auto;
+    position: absolute;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.banner-text{
+    font-size: 6rem;
+    color: #ffffff;
+    font-weight: 100;
+}
+
+.main-information{
+    margin: auto;
+    width: 100%;
+    max-width: 980px;
+    display: flex;
+    padding-top: 2%;
+    margin-bottom: 3%;
+}
+
+.title-products{
+    font-size: 3rem;
+    margin-bottom: 2%;
+    color: #cc2229;
+}
+
+.promo{
+    width: 50%;
+    height: 100%;
+    margin-right: 12%;
+    margin-top: 0;
+   
+}
+
+.promo-img{
+    width: 100%;
+}
+
+/* .promotion1 .promo-img{
+    z-index: 1;
+    position: relative;
+} */
+
+.promotions{
+   width: 100%;
+   height: auto;
+   margin-bottom: 5em;
+
+   border: #cc2229 solid 0.5em;
+   border-radius: 0.8em;
+}
+
+.promotions:hover{
+    transform: translateX(3px);
+}
+
+.promotions .promo-text{
+    text-align: center;
+}
+
+.promotions .promo-text{
+    width:100%;
+    height: auto;
+    text-align: center;
+    padding: 3em;
+}
+
+.promotions p{
+    font-size: 3rem;
+}
+
+.promotion1{
+    background-image: url(/assets/promo1.png);
+}
+
+.promotion2{
+    background-image: url(/assets/promo2.png);
+}
+
+.promotion2 p{
+    font-size: 2.5rem;
+}
+
+.promotion3{
+    background-color: #ffffff;
+}
+
+.products{
+    display: flex;
+    align-items: center;
+    margin-bottom: 2.2em;
+}
+
+.emalta{
+    width: 50%;
+    height: 100%
+}
+
+.emalta .alta-img{
+    width: 20%;
+    height: auto;
+    margin-right: 2%;
+    margin-bottom: 1.5%;
+}
+
+.emalta .price{
+    font-size: 2rem;
+    color: #cc2229;
+}
+
+.emalta .price .product-title{
+    font-weight: 800;
+}
+
+.category{
+    width: 100%;
+    max-width: 980px;
+
+    margin: auto;
+    text-align: center;
+    margin-bottom: 3%;
+}
+
+.category-title{
+    font-size: 5rem;
+    color: #cc2229;
+    margin-bottom: 2%;
+}
+.category-grid{
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    grid-gap: 0.5em
+}
+
+.big-category{
+    background-color: #cc2229;
+    width: 100%;
+    height: auto;
+    color: #ffffff;
+
+    border-radius: 0.8em;
+    transition: background 0.5s;
+    cursor: pointer;
+}
+
+.big-category:hover{
+    background-color: #4D0D0F;
+    color: #ffffff;
+}
+
+.big-category p,
+.small-category p{
+    padding: 0.5em;
+    font-size: 4rem;
+}
+
+.small-category{
+    background-color: #4D0D0F;
+    width: 100%;
+    height: auto;
+    color: #ffffff;
+    
+    border-radius: 0.8em;
+    transition: background 0.5s;
+    cursor: pointer;
+}
+
+.small-category:hover{
+    background-color: #cc2229;
+    color: #ffffff;
+}
+
